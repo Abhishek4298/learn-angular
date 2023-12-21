@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'youtube-learn-angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('youtube-learn-angular');
+    expect(app.name).toEqual('youtube-learn-angular');
   });
 
   it('should render title', () => {

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './form.component.css'
 })
 export class FormComponent {
-
+  formData = {
+    name: 'Abhishek'
+  };
+  onSubmit() {
+    alert(JSON.stringify(this.formData));
+  }
 }
